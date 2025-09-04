@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+}
+body{
+    background-color: #000;
+}
+
+header{
+    height:90px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+nav {
+    width:60%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    color:aliceblue;
+    font-size:20px;
+    font-family: 'Bangers', cursive;
+    cursor: pointer;
+    transition: 1s;
+}
+
+li:hover{
+    transform: scale(1.08);
+    color: #D21617;
+}
+
+#logo{
+    width:200px;
+    height:85px;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.card{
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 8px #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+h3{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Bangers', cursive;
+    
+}
+
+.star{
+    width: 22px;
+}
+
+p{
+    font-size: 18px;
+    color: aliceblue;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+}
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+span{
+    color:#fff;
+    font-family: 'Bangers', cursive;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .cards-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap:50px;
+        width:95%;
+    }
+    .card{
+        height: 250px;
+    }
+
+
+
+}

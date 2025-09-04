@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style:none;
+    background-color:#000;
+}
+
+header{
+    height: 90px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+nav{
+    width:60%;
+}
+
+ul{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+li{
+    color:aliceblue;
+    font-size:20px;
+    font-family:'Bangers', cursive;
+    cursor:pointer;
+    transition:1s;
+}
+
+li:hover{
+    color:#D21617;
+    transform: scale(1.08);
+}
+
+#logo{
+    width:200px;
+    height: 85px;
+}
+
+
+
+.contato {
+
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.formulario {
+
+    width: 500px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+}
+
+h2 {
+    font-size: 25px;
+    color: aliceblue;
+    font-family:'Bangers', cursive;
+    text-align: center;
+}
+
+.field {
+
+    width: 100%;
+    margin: 15px 0;
+}
+
+.field label {
+
+    width: 100%;
+    padding-left: 10px;
+    font-size: 18px;
+    display: block;
+    color: aliceblue;
+    font-family:'Bangers', cursive;
+    
+}
+
+input[type=text], input[type='email'], input[type="number"], textarea {
+
+    width:90%;
+    padding: 12px;
+    border: 3px solid #D21617;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: aliceblue;
+    font-family:'Bangers', cursive;
+    font-size: 18px;
+   
+}
+
+
+.field span {
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    font-family:'Bangers', cursive;
+}
+
+.radiobox label {
+
+    width: auto;
+    display: inline-block;
+}
+
+input#sim {
+
+    margin-left: 30px;
+}
+
+input#nao {
+
+    margin-left: 30px;
+}
+
+.button {
+    display: block;
+    background-color: #d21617;
+    height: 40px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    transition: .5s;
+    color: #fff;
+    font-family:'Bangers', cursive;
+    font-size: 18px;
+}
+
+.button:hover {
+
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    height: 300px; 
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Bangers', cursive;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:768px){
+    nav{
+        display: none;
+    }
+
+    .footer-navigation{
+        display: block;
+    }
+
+    .contato{
+        width: 80%;
+        margin-left:45px;
+    }
+    
+}
+
+
+

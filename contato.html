@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contato.css"/>
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img id="logo" src="./midia/homem-aranha-logo.jpg"/>
+        </a>
+
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner"></div>
+    
+    <div class="contato">
+
+        <form class="formulario" action="./contato.html">
+    
+            <h2>Alguma dúvida? Entre em contato conosco</h2>
+    
+            <div class="field">
+    
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="Nome" placeholder="Seu Nome*" required="">
+            </div>
+    
+            <div class="field">
+    
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Coloque um email válido*" required="" />
+    
+            </div>
+
+            <div class="field">
+
+                <label for="number">Telefone:</label>
+                <input type="number" id="number" name="number" placeholder="Telefone*" required>
+            </div>
+        
+    
+            <div class="field radiobox">
+    
+                <span>Deseja receber novidades por e-mail?</span>
+                <input id="sim" type="radio" name="Novidades" value="sim" checked="">
+                <label for="Sim">Sim</label>
+    
+                <input id="nao" type="radio" name="Novidades" value="nao">
+                <label for="nao">Não</label>
+            </div>
+    
+            <div class="field">
+    
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem*" required=""></textarea>
+    
+            </div>
+    
+            <button class="button">Enviar</button>
+    
+      </form>
+    </div>
+
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./midia/homem-aranha-logo.jpg" />
+
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Thainá Alcantara</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+    
+
+</body>
+</html>

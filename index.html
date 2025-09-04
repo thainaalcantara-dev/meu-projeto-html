@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <header>
+            <a href="./index.html">
+                <img id="logo" src="./midia/homem-aranha-logo.jpg">
+            </a>
+            <nav>
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <div id="banner"></div>
+        <div id="trailer-container">
+            <div class="content">
+                <video controls class="trailer">
+                    <source src="./midia/pagina-home/trailer-homem-aranha.mp4.mp4" type="video/mp4">
+                    Seu navegador não possui suporte para vídeos
+                </video>
+
+                <div id="sinopse">
+                    <p class="description">
+                        Depois de se reunir com Gwen Stacy, 
+                        o Amigão da Vizinhança do Brooklyn, Homem-Aranha
+                        é catapultado através do multiverso, onde ele encontra uma equipe de Pessoas-Aranha
+                        encarregadas de proteger a existência do multiverso. Mas, quando os heróis entram em conflito 
+                        sobre como lidar com uma nova ameaça, Miles se vê confrontando as outras Aranhas e precisa repensar o que significa 
+                        ser um herói para salvar as pessoas que mais ama.
+                    <button class="button" onclick="document.getElementById('player').play()">Comprar Ingresso</button>
+                    <audio id="player" src="./midia/pagina-home/Annihilate (Spider-Man_ Across the Spider-Verse).mp3" type="audio/mp3"/>
+                </div>
+            </div>
+        </div>
+        <div class="actor-cards-container">
+            <div class="cards-content">
+                <div class="card banner-1">Miles Morales - Shameik Moore </div>
+                <div class="card banner-2">Gwen Stacy - Hailee Steinfeld </div>
+                <div class="card banner-3">Peter Parker - Jake Johnson </div>
+                <div class="card banner-4">Miguel O'hara - Oscar Isaac </div>
+                <div class="card banner-5">Spot - Jason Schwartzman </div>
+            </div>
+        </div>
+        <footer>
+            <img style="object-fit: contain;" id="logo" src="./midia/homem-aranha-logo.jpg" />
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: Thainá Alcantara</span>
+            <nav class="footer-navigation">
+                <ul class="footer-list">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
