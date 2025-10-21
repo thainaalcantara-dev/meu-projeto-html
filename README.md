@@ -18,7 +18,7 @@ O site apresenta informações e imagens relacionadas ao universo do Homem-Aranh
 
 ## 🌐 Acesse o site
 O projeto está publicado no GitHub Pages:  
-👉 [Clique aqui para ver online](https://thainaalcantara-ads.github.io/meu-projeto-html/)
+👉 [Clique aqui para ver online](https://thainaalcantara-dev.github.io/meu-projeto-html/)
 
 ## ✨ Melhorias futuras
 - Tornar o site responsivo para dispositivos móveis 📱  
